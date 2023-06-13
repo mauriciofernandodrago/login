@@ -14,10 +14,42 @@ body,html{
     background-color: var(--cor01);
     width: 100vw;
     height: 100vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.foto{
+    background-image: url(../imagens/pexels-david-underland-3523621.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.container{
     
-}
-main{
     background-color: white;
-    width: 400px;
-    margin: auto;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
 }
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#inputs{
+    background-color: var(--cor01);
+}
+
+
+
