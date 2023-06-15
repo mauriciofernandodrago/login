@@ -22,7 +22,8 @@ body,html{
     background-image: url(../imagens/pexels-david-underland-3523621.jpg);
     background-size: cover;
     height: 300px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
 .container{
@@ -34,6 +35,8 @@ body,html{
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
+    padding-bottom: 10px;
+    
 
 }
 h1{
@@ -41,14 +44,54 @@ h1{
     padding-bottom: 10px;
     text-align: center;
 }
-p{
-    padding-top: 10px;
-    padding-bottom: 10px;
+p#texto{
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
-#inputs{
+.inputs{
     background-color: var(--cor01);
+    margin: 0px 10px 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+}
+
+#username{
+    display: inline-block;
+    background-color: rgb(212, 191, 231);
+    border: 0;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 30px;
+}
+#password{
+    background-color: rgb(134, 205, 223);
+    border: 0;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 30px;
+}
+#bentrar{
+    height: 30px;
+    border: 0px;
+    flex-grow: 1;
+    border-radius: 5px;
+    background-color: rgb(78, 177, 177);
+    color: white;
+    font-weight: 700;
+}
+#besqueci{
+    height: 30px;
+    border: 1px solid rgb(78, 177, 177);
+    flex-grow: 1;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(78, 177, 177);
 }
 
 

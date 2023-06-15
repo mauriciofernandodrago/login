@@ -13,23 +13,23 @@
         <div class="foto"></div>
     
         <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
+        <p id="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
         <form action="post">
-            <p class="inputs">
+            <div class="inputs">
                 
                 <label id="usernamelabel" for="username"><span class="material-symbols-outlined">        login</span></label>
                 <input type="text" name="username" id="username" placeholder="username">
-            </p>
-            <p class="inputs">
+            </div>
+            <div class="inputs">
                 <label for="password"><span class="material-symbols-outlined">        key</span></label>
-                <input type="password" name="password" id="password">
-            </p>
-            <p>
-                <input type="submit" value="Entrar">
-            </p>
-            <p>
-                <input type="button" value="Esqueci a senha">
-            </p>
+                <input type="password" name="password" id="password" placeholder="sua senha">
+            </div>
+            <div class="inputs">
+                <input id="bentrar" type="submit" value="Entrar">
+            </div>
+            <div class="inputs">
+                <input id="besqueci" type="button" value="Esqueci a senha">
+            </div>
         </form>
     </div>
 </body>
