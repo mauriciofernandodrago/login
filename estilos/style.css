@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -11,7 +12,7 @@ html, body{
     color: rgb(31, 31, 31);
     width: 100vw;
     height: 100vh;
-    position: relative;
+    position: absolute;
 
 }
 
@@ -27,14 +28,19 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
 
+    transition: width 1s, height 1s;
+    transition-timing-function: ease-in-out;
+
     
 }
 div#imagem{
+    display: block;
     height: 300px;
     background: url(../imagens/pexels-david-underland-3523621.jpg) no-repeat ;
     background-size: cover;
 }
 div#formulario{
+    display: block;
     padding: 10px;
 }
 h1{
@@ -59,7 +65,7 @@ section#login > div#formulario > form > div.campo span{
 }
 section#login > div#formulario > form > div.campo input{
     height: 90%;
-    transform: translate(8px,-7px);
+    transform: translate(8px,-9px);
     width: calc(100% - 45px);
     border-radius: 8px;
     border: none;
